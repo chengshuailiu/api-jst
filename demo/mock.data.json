@@ -1,0 +1,1174 @@
+{
+  "code": "200",
+  "msg": "success",
+  "result": [
+    {
+      "controllerName": "class com.qf.openchannel.Application",
+      "methodName": "home",
+      "requestType": "null",
+      "requestUrl": "/",
+      "methodParmaTypes": []
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.ActiveController",
+      "methodName": "getActiveList",
+      "requestType": "POST",
+      "requestUrl": "/active/getActiveList",
+      "methodParmaTypes": [
+        "com.qf.openchannel.model.Active"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.ActiveController",
+      "methodName": "insertActive",
+      "requestType": "POST",
+      "requestUrl": "/active/insertActive",
+      "methodParmaTypes": [
+        "javax.servlet.http.HttpServletRequest"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.ActiveController",
+      "methodName": "updateActiveStatus",
+      "requestType": "POST",
+      "requestUrl": "/active/updateActiveStatus",
+      "methodParmaTypes": [
+        "com.qf.openchannel.model.Active"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.ActiveController",
+      "methodName": "getActiveUrlListByUser",
+      "requestType": "GET",
+      "requestUrl": "/active/getActiveUrlListByUser",
+      "methodParmaTypes": []
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.ActiveController",
+      "methodName": "delActive",
+      "requestType": "POST",
+      "requestUrl": "/active/delActive/{id}",
+      "methodParmaTypes": [
+        "java.lang.Integer"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.ActiveController",
+      "methodName": "selectActive",
+      "requestType": "POST",
+      "requestUrl": "/active/selectActive/{id}",
+      "methodParmaTypes": [
+        "java.lang.Integer"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.ActiveController",
+      "methodName": "getActiveHisList",
+      "requestType": "POST",
+      "requestUrl": "/active/getActiveHisList",
+      "methodParmaTypes": [
+        "com.qf.openchannel.model.ActiveHis"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.AgentController",
+      "methodName": "save",
+      "requestType": "POST",
+      "requestUrl": "/agent/save",
+      "methodParmaTypes": [
+        "com.qf.openchannel.model.Agent"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.AgentController",
+      "methodName": "view",
+      "requestType": "null",
+      "requestUrl": "/agent/view/{id}",
+      "methodParmaTypes": [
+        "java.lang.Integer"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.AgentController",
+      "methodName": "saveAgentRefferal",
+      "requestType": "POST",
+      "requestUrl": "/agent/saveAgentRefferal",
+      "methodParmaTypes": [
+        "java.util.List"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.AgentController",
+      "methodName": "deleteAgentRefferal",
+      "requestType": "GET",
+      "requestUrl": "/agent/deleteAgentRefferal/{id}",
+      "methodParmaTypes": [
+        "java.lang.Integer"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.AgentController",
+      "methodName": "getAgentRefferal",
+      "requestType": "POST",
+      "requestUrl": "/agent/getAgentRefferal",
+      "methodParmaTypes": [
+        "com.qf.openchannel.model.AgentRefferal"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.AgentController",
+      "methodName": "getAgentList",
+      "requestType": "POST",
+      "requestUrl": "/agent/getAgentList",
+      "methodParmaTypes": [
+        "com.qf.openchannel.vo.AgentRequest"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.AgentController",
+      "methodName": "getall",
+      "requestType": "GET",
+      "requestUrl": "/agent/getall",
+      "methodParmaTypes": []
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.BannerController",
+      "methodName": "all",
+      "requestType": "null",
+      "requestUrl": "/banner/getList/{refferalId}",
+      "methodParmaTypes": [
+        "int"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.BannerController",
+      "methodName": "save",
+      "requestType": "POST",
+      "requestUrl": "/banner/save",
+      "methodParmaTypes": [
+        "com.qf.openchannel.model.Banner"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.BannerController",
+      "methodName": "view",
+      "requestType": "null",
+      "requestUrl": "/banner/view/{id}",
+      "methodParmaTypes": [
+        "java.lang.Integer"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.BannerController",
+      "methodName": "getBannersByRefferalIdAndPublishId",
+      "requestType": "POST",
+      "requestUrl": "/banner/getBannersByRefferalIdAndPublishId",
+      "methodParmaTypes": [
+        "com.qf.openchannel.vo.BannerRequest"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.BannerController",
+      "methodName": "excelImport",
+      "requestType": "POST",
+      "requestUrl": "/banner/excelImport",
+      "methodParmaTypes": [
+        "org.springframework.web.multipart.MultipartFile",
+        "java.lang.Integer"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.BannerController",
+      "methodName": "getBannersByRefferalId",
+      "requestType": "POST",
+      "requestUrl": "/banner/getBannersByRefferalId",
+      "methodParmaTypes": [
+        "com.qf.openchannel.model.Banner"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.BannerController",
+      "methodName": "getBannersByPublishId",
+      "requestType": "GET",
+      "requestUrl": "/banner/getBannersByPublishId/{publishId}",
+      "methodParmaTypes": [
+        "java.lang.Integer"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.BannerController",
+      "methodName": "bannerTemplateDownload",
+      "requestType": "GET",
+      "requestUrl": "/banner/template",
+      "methodParmaTypes": []
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.BannerController",
+      "methodName": "bannerTemplateUpload",
+      "requestType": "POST",
+      "requestUrl": "/banner/template/upload",
+      "methodParmaTypes": [
+        "org.springframework.web.multipart.MultipartFile"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.CampaignPlanController",
+      "methodName": "getList",
+      "requestType": "GET",
+      "requestUrl": "/mc/campaignPlan/list",
+      "methodParmaTypes": [
+        "com.qf.openchannel.model.PageResult"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.CampaignPlanController",
+      "methodName": "addCampaignPlan",
+      "requestType": "POST",
+      "requestUrl": "/mc/campaignPlan/addCampaignPlan",
+      "methodParmaTypes": [
+        "com.qf.openchannel.model.CampaignPlan"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.CampaignPlanController",
+      "methodName": "copyCampaignPlan",
+      "requestType": "POST",
+      "requestUrl": "/mc/campaignPlan/copyCampaignPlan/{id}",
+      "methodParmaTypes": [
+        "java.lang.Integer"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.CampaignPlanController",
+      "methodName": "delCampaignPlan",
+      "requestType": "DELETE",
+      "requestUrl": "/mc/campaignPlan/delCampaignPlan/{id}",
+      "methodParmaTypes": [
+        "java.lang.Integer"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.CampaignPlanController",
+      "methodName": "updateCampaignPlan",
+      "requestType": "POST",
+      "requestUrl": "/mc/campaignPlan/updateCampaignPlan",
+      "methodParmaTypes": [
+        "com.qf.openchannel.model.CampaignPlan"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.CampaignPlanController",
+      "methodName": "selectCampaignPlan",
+      "requestType": "GET",
+      "requestUrl": "/mc/campaignPlan/selectCampaignPlan/{id}",
+      "methodParmaTypes": [
+        "java.lang.Integer"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.CustomEmailController",
+      "methodName": "sendCustomeEmail",
+      "requestType": "POST",
+      "requestUrl": "/email/custome",
+      "methodParmaTypes": [
+        "com.qf.openchannel.vo.CustomEmailRequest"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.DashboardController",
+      "methodName": "selectPvRealTime",
+      "requestType": "GET",
+      "requestUrl": "/dashboard/selectPvRealTime/{refferalId}",
+      "methodParmaTypes": [
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.DashboardController",
+      "methodName": "selectUvRealTime",
+      "requestType": "GET",
+      "requestUrl": "/dashboard/selectUvRealTime/{refferalId}",
+      "methodParmaTypes": [
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.DashboardController",
+      "methodName": "flushCache",
+      "requestType": "GET",
+      "requestUrl": "/dashboard/flushCache",
+      "methodParmaTypes": []
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.DashboardController",
+      "methodName": "rankTopN",
+      "requestType": "POST",
+      "requestUrl": "/dashboard/topN",
+      "methodParmaTypes": [
+        "com.qf.openchannel.vo.ReffComRequest",
+        "java.lang.String"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.DashboardController",
+      "methodName": "exportReport",
+      "requestType": "POST",
+      "requestUrl": "/dashboard/exportReport",
+      "methodParmaTypes": [
+        "com.qf.openchannel.vo.ReffComRequest",
+        "java.lang.String"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.DashboardController",
+      "methodName": "selectOverViewData",
+      "requestType": "GET",
+      "requestUrl": "/dashboard/overViewData/{searchDay}",
+      "methodParmaTypes": [
+        "java.lang.String",
+        "java.lang.Integer",
+        "java.lang.String",
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.DashboardController",
+      "methodName": "selectRefferalCompare",
+      "requestType": "POST",
+      "requestUrl": "/dashboard/selectRefferalCompare",
+      "methodParmaTypes": [
+        "com.qf.openchannel.vo.ReffComRequest",
+        "java.lang.String"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.DashboardController",
+      "methodName": "selectRefferalByDataType",
+      "requestType": "POST",
+      "requestUrl": "/dashboard/selectRefferalByDataType",
+      "methodParmaTypes": [
+        "com.qf.openchannel.vo.ReffComRequest",
+        "java.lang.String"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.DashboardController",
+      "methodName": "selectRefferalByDataTypeAdmin",
+      "requestType": "POST",
+      "requestUrl": "/dashboard/selectRefferalByDataTypeAdmin",
+      "methodParmaTypes": [
+        "com.qf.openchannel.vo.ReffComRequest",
+        "java.lang.String"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.DashboardController",
+      "methodName": "getRefferalByPublish",
+      "requestType": "POST",
+      "requestUrl": "/dashboard/getRefferalByPublish",
+      "methodParmaTypes": [
+        "com.qf.openchannel.vo.ReffComRequest",
+        "java.lang.String"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.DashboardController",
+      "methodName": "selectRefferalConvertRatio",
+      "requestType": "POST",
+      "requestUrl": "/dashboard/selectRefferalConvertRatio",
+      "methodParmaTypes": [
+        "com.qf.openchannel.vo.ReffComRequest",
+        "java.lang.String"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.DashboardController",
+      "methodName": "selectRefferalTrend",
+      "requestType": "POST",
+      "requestUrl": "/dashboard/selectRefferalTrend",
+      "methodParmaTypes": [
+        "com.qf.openchannel.vo.ReffComRequest",
+        "java.lang.String"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.DashboardController",
+      "methodName": "selectRegRealTime",
+      "requestType": "GET",
+      "requestUrl": "/dashboard/selectRegRealTime/{refferalId}",
+      "methodParmaTypes": [
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.DashboardController",
+      "methodName": "getCurrentTimeMillis",
+      "requestType": "GET",
+      "requestUrl": "/dashboard/currentTimeMillis",
+      "methodParmaTypes": []
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.DashboardController",
+      "methodName": "selectFirstInvestPerson",
+      "requestType": "GET",
+      "requestUrl": "/dashboard/selectFirstInvestPerson/{refferalId}",
+      "methodParmaTypes": [
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.DashboardController",
+      "methodName": "selectFirstInvestAmount",
+      "requestType": "GET",
+      "requestUrl": "/dashboard/selectFirstInvestAmount/{refferalId}",
+      "methodParmaTypes": [
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.DashboardController",
+      "methodName": "selectAvgFirstInvestAmount",
+      "requestType": "GET",
+      "requestUrl": "/dashboard/selectAvgFirstInvestAmount/{refferalId}",
+      "methodParmaTypes": [
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.DashboardController",
+      "methodName": "selectTotalInvestPerson",
+      "requestType": "GET",
+      "requestUrl": "/dashboard/selectTotalInvestPerson/{refferalId}",
+      "methodParmaTypes": [
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.DashboardController",
+      "methodName": "selectTotalInvestAmount",
+      "requestType": "GET",
+      "requestUrl": "/dashboard/selectTotalInvestAmount/{refferalId}",
+      "methodParmaTypes": [
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.DashboardController",
+      "methodName": "selectAvgTotalInvestAmount",
+      "requestType": "GET",
+      "requestUrl": "/dashboard/selectAvgTotalInvestAmount/{refferalId}",
+      "methodParmaTypes": [
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.DashboardController",
+      "methodName": "selectStatisticalData",
+      "requestType": "POST",
+      "requestUrl": "/dashboard/selectStatisticsData",
+      "methodParmaTypes": [
+        "com.qf.openchannel.vo.ReffComRequest",
+        "java.lang.String"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.DashboardPublishController",
+      "methodName": "getCompaignPlanByChannelAndBizType",
+      "requestType": "POST",
+      "requestUrl": "/dashboard/publish/selectCompaignPlanByChannelAndBizType",
+      "methodParmaTypes": [
+        "com.qf.openchannel.model.Publish",
+        "java.lang.String"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.DashboardPublishController",
+      "methodName": "getUtmByBannerId",
+      "requestType": "POST",
+      "requestUrl": "/dashboard/publish/getUtmByBannerId",
+      "methodParmaTypes": [
+        "com.qf.openchannel.model.Utm"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.DashboardPublishController",
+      "methodName": "selectCompare",
+      "requestType": "POST",
+      "requestUrl": "/dashboard/publish/selectCompare",
+      "methodParmaTypes": [
+        "com.qf.openchannel.vo.ReffComRequest",
+        "java.lang.String"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.DashboardPublishController",
+      "methodName": "getBannersByCampaignPlanId",
+      "requestType": "POST",
+      "requestUrl": "/dashboard/publish/getBannersByCampaignPlanId",
+      "methodParmaTypes": [
+        "com.qf.openchannel.model.CampaignPlan",
+        "java.lang.String"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.DashboardPublishController",
+      "methodName": "selectPublishTrend",
+      "requestType": "POST",
+      "requestUrl": "/dashboard/publish/selectPublishTrend",
+      "methodParmaTypes": [
+        "com.qf.openchannel.vo.ReffComRequest",
+        "java.lang.String"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.DataDicController",
+      "methodName": "update",
+      "requestType": "POST",
+      "requestUrl": "/dataDic/update",
+      "methodParmaTypes": [
+        "com.qf.openchannel.model.DataDic"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.DataDicController",
+      "methodName": "delete",
+      "requestType": "POST",
+      "requestUrl": "/dataDic/delete/{id}",
+      "methodParmaTypes": [
+        "java.lang.Integer"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.DataDicController",
+      "methodName": "insert",
+      "requestType": "POST",
+      "requestUrl": "/dataDic/insert",
+      "methodParmaTypes": [
+        "com.qf.openchannel.model.DataDic"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.DataDicController",
+      "methodName": "getDataCode",
+      "requestType": "GET",
+      "requestUrl": "/dataDic/getDataCode/{parentCode}/{parentId}",
+      "methodParmaTypes": [
+        "java.lang.String",
+        "java.lang.Integer"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.DataDicController",
+      "methodName": "getDataDicList",
+      "requestType": "GET",
+      "requestUrl": "/dataDic/getDataDicList/{dataCode}",
+      "methodParmaTypes": [
+        "java.lang.String",
+        "java.lang.String"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.DataDicController",
+      "methodName": "selectDbDate",
+      "requestType": "GET",
+      "requestUrl": "/dataDic/selectDbDate",
+      "methodParmaTypes": []
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.DataDicController",
+      "methodName": "getDataDicListByDataType",
+      "requestType": "GET",
+      "requestUrl": "/dataDic/getDataDicListByDataType/{dataType}",
+      "methodParmaTypes": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.DataDicController",
+      "methodName": "getMainDataListByPagination",
+      "requestType": "POST",
+      "requestUrl": "/dataDic/getMainDataListByPagination",
+      "methodParmaTypes": [
+        "com.qf.openchannel.model.DataDic"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.DataDicController",
+      "methodName": "getNameByCode",
+      "requestType": "GET",
+      "requestUrl": "/dataDic/getNameByCode/{dataCode}",
+      "methodParmaTypes": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.DataDicController",
+      "methodName": "getRoleList",
+      "requestType": "GET",
+      "requestUrl": "/dataDic/getRoleList",
+      "methodParmaTypes": []
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.HealthCheckController",
+      "methodName": "checkServerStatus",
+      "requestType": "null",
+      "requestUrl": "/healthCheck/checkServerStatus",
+      "methodParmaTypes": []
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.IdfaController",
+      "methodName": "addIdfa",
+      "requestType": "null",
+      "requestUrl": "/idfa/click",
+      "methodParmaTypes": [
+        "com.qf.openchannel.model.Idfa"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.LoginController",
+      "methodName": "all",
+      "requestType": "null",
+      "requestUrl": "/login/cas",
+      "methodParmaTypes": []
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.MaterialAttachmentController",
+      "methodName": "push",
+      "requestType": "POST",
+      "requestUrl": "/attachment/push",
+      "methodParmaTypes": [
+        "javax.servlet.http.HttpServletRequest"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.MaterialAttachmentController",
+      "methodName": "deleteMultipleAttachments",
+      "requestType": "POST",
+      "requestUrl": "/attachment/deleteMultipleAttachments",
+      "methodParmaTypes": [
+        "com.qf.openchannel.vo.MaterialAttachmentRequest"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.MaterialAttachmentController",
+      "methodName": "getMaterialHistoryList",
+      "requestType": "GET",
+      "requestUrl": "/attachment/history/list/{materialTaskId}",
+      "methodParmaTypes": [
+        "int"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.MaterialAttachmentController",
+      "methodName": "getMultipleAttachments",
+      "requestType": "POST",
+      "requestUrl": "/attachment/getMultipleAttachments",
+      "methodParmaTypes": [
+        "com.qf.openchannel.vo.MaterialAttachmentRequest"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.MaterialAttachmentController",
+      "methodName": "fetch",
+      "requestType": "POST",
+      "requestUrl": "/attachment/fetch",
+      "methodParmaTypes": [
+        "com.qf.openchannel.vo.MaterialAttachmentRequest"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.MaterialAttachmentController",
+      "methodName": "getMaterialList",
+      "requestType": "POST",
+      "requestUrl": "/attachment/getMaterialList",
+      "methodParmaTypes": [
+        "com.qf.openchannel.model.MaterialAttachment"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.MaterialAttachmentController",
+      "methodName": "deleteAttachment",
+      "requestType": "POST",
+      "requestUrl": "/attachment/deleteMaterial/{id}",
+      "methodParmaTypes": [
+        "int"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.MaterialTaskController",
+      "methodName": "user",
+      "requestType": "GET",
+      "requestUrl": "/materialTask/view/{id}",
+      "methodParmaTypes": [
+        "java.lang.Integer"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.MaterialTaskController",
+      "methodName": "getMaterialTaskList",
+      "requestType": "POST",
+      "requestUrl": "/materialTask/getMaterialTaskList",
+      "methodParmaTypes": [
+        "com.qf.openchannel.model.MaterialTask"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.MaterialTaskController",
+      "methodName": "selectMaterialTaskList",
+      "requestType": "GET",
+      "requestUrl": "/materialTask/selectMaterialTaskList",
+      "methodParmaTypes": [
+        "com.qf.openchannel.vo.MaterialTaskRequest"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.MaterialTaskController",
+      "methodName": "selectMaterialTask",
+      "requestType": "POST",
+      "requestUrl": "/materialTask/selectMaterialTask/{id}",
+      "methodParmaTypes": [
+        "java.lang.Integer"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.MaterialTaskController",
+      "methodName": "getDataDicList",
+      "requestType": "GET",
+      "requestUrl": "/materialTask/getDataDicList",
+      "methodParmaTypes": []
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.MaterialTaskController",
+      "methodName": "updateTaskStatu",
+      "requestType": "POST",
+      "requestUrl": "/materialTask/updateTaskStatu/{id}",
+      "methodParmaTypes": [
+        "java.lang.Integer"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.MaterialTaskController",
+      "methodName": "checkComplete",
+      "requestType": "POST",
+      "requestUrl": "/materialTask/complete/{taskId}",
+      "methodParmaTypes": [
+        "java.lang.Integer"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.MaterialTaskController",
+      "methodName": "getUserList",
+      "requestType": "GET",
+      "requestUrl": "/materialTask/getUserList",
+      "methodParmaTypes": []
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.MaterialTaskController",
+      "methodName": "batchSave",
+      "requestType": "POST",
+      "requestUrl": "/materialTask/batchSave",
+      "methodParmaTypes": [
+        "com.qf.openchannel.vo.MaterialTaskSaveRequest"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.OperationHisController",
+      "methodName": "getOperationHis",
+      "requestType": "POST",
+      "requestUrl": "/operationHis/getOperationHis",
+      "methodParmaTypes": [
+        "com.qf.openchannel.model.OperationHis"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.ProductController",
+      "methodName": "all",
+      "requestType": "null",
+      "requestUrl": "/product/getList",
+      "methodParmaTypes": []
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.ProductController",
+      "methodName": "getbyID",
+      "requestType": "null",
+      "requestUrl": "/product/getList/{id}",
+      "methodParmaTypes": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.PublishController",
+      "methodName": "updatePublish",
+      "requestType": "POST",
+      "requestUrl": "/mc/publish/updatePublish",
+      "methodParmaTypes": [
+        "com.qf.openchannel.vo.PublishRequest"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.PublishController",
+      "methodName": "delPublish",
+      "requestType": "POST",
+      "requestUrl": "/mc/publish/delPublish",
+      "methodParmaTypes": [
+        "com.qf.openchannel.model.CampaignPublish"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.PublishController",
+      "methodName": "stopPublish",
+      "requestType": "POST",
+      "requestUrl": "/mc/publish/stopPublish/{id}",
+      "methodParmaTypes": [
+        "java.lang.Integer"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.PublishController",
+      "methodName": "exportUrl",
+      "requestType": "GET",
+      "requestUrl": "/mc/publish/export/{campaignId}",
+      "methodParmaTypes": [
+        "java.lang.Integer",
+        "javax.servlet.http.HttpServletRequest",
+        "javax.servlet.http.HttpServletResponse"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.PublishController",
+      "methodName": "checkUrlValid",
+      "requestType": "POST",
+      "requestUrl": "/mc/publish/checkUrlValid",
+      "methodParmaTypes": [
+        "com.qf.openchannel.vo.UrlVo"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.PublishController",
+      "methodName": "getKeyword",
+      "requestType": "POST",
+      "requestUrl": "/mc/publish/getKeyword",
+      "methodParmaTypes": [
+        "org.springframework.web.multipart.MultipartFile"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.PublishController",
+      "methodName": "selectPublish",
+      "requestType": "GET",
+      "requestUrl": "/mc/publish/selectPublish/{publishId}",
+      "methodParmaTypes": [
+        "java.lang.Integer"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.PublishController",
+      "methodName": "updatePublishTime",
+      "requestType": "POST",
+      "requestUrl": "/mc/publish/updatePublishTime",
+      "methodParmaTypes": [
+        "com.qf.openchannel.model.Publish"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.PublishController",
+      "methodName": "getPublishsByCampaignIdPagination",
+      "requestType": "POST",
+      "requestUrl": "/mc/publish/getPublishsByCampaignIdPagination",
+      "methodParmaTypes": [
+        "com.qf.openchannel.vo.PublishRequest",
+        "java.lang.String"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.PublishController",
+      "methodName": "getPublishsByCampaignId",
+      "requestType": "POST",
+      "requestUrl": "/mc/publish/getPublishsByCampaignId/{campaignId}",
+      "methodParmaTypes": [
+        "java.lang.Integer"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.PublishController",
+      "methodName": "insertPublishList",
+      "requestType": "POST",
+      "requestUrl": "/mc/publish/insertPublishList",
+      "methodParmaTypes": [
+        "com.qf.openchannel.vo.PublishRequest"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.RedisCacheDataController",
+      "methodName": "getUrlById",
+      "requestType": "GET",
+      "requestUrl": "/redis/url/{id}",
+      "methodParmaTypes": [
+        "java.lang.Integer"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.RedisCacheDataController",
+      "methodName": "getPublishById",
+      "requestType": "GET",
+      "requestUrl": "/redis/publish/{id}",
+      "methodParmaTypes": [
+        "java.lang.Integer"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.RedisCacheDataController",
+      "methodName": "flushBaseData",
+      "requestType": "GET",
+      "requestUrl": "/redis/flush/baseData",
+      "methodParmaTypes": []
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.RedisCacheDataController",
+      "methodName": "getRefferalById",
+      "requestType": "GET",
+      "requestUrl": "/redis/refferal/{id}",
+      "methodParmaTypes": [
+        "java.lang.Integer"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.RedisCacheDataController",
+      "methodName": "getCampaignPlanById",
+      "requestType": "GET",
+      "requestUrl": "/redis/campaignPlan/{id}",
+      "methodParmaTypes": [
+        "java.lang.Integer"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.RefferalController",
+      "methodName": "all",
+      "requestType": "null",
+      "requestUrl": "/refferal",
+      "methodParmaTypes": []
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.RefferalController",
+      "methodName": "delete",
+      "requestType": "null",
+      "requestUrl": "/refferal/delete/{id}",
+      "methodParmaTypes": [
+        "java.lang.Integer"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.RefferalController",
+      "methodName": "save",
+      "requestType": "POST",
+      "requestUrl": "/refferal/save",
+      "methodParmaTypes": [
+        "com.qf.openchannel.model.Refferal"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.RefferalController",
+      "methodName": "view",
+      "requestType": "null",
+      "requestUrl": "/refferal/view/{id}",
+      "methodParmaTypes": [
+        "java.lang.Integer"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.RefferalController",
+      "methodName": "copyRefferal",
+      "requestType": "null",
+      "requestUrl": "/refferal/copy/{id}",
+      "methodParmaTypes": [
+        "java.lang.Integer"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.RefferalController",
+      "methodName": "refferalList",
+      "requestType": "null",
+      "requestUrl": "/refferal/refferalList",
+      "methodParmaTypes": [
+        "com.qf.openchannel.model.Refferal"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.RefferalController",
+      "methodName": "excelDownload",
+      "requestType": "GET",
+      "requestUrl": "/refferal/template",
+      "methodParmaTypes": []
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.RefferalController",
+      "methodName": "getRefferalAndAngentList",
+      "requestType": "GET",
+      "requestUrl": "/refferal/getRefferalAndAngentList",
+      "methodParmaTypes": []
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.RefferalController",
+      "methodName": "getRefferalByAgentId",
+      "requestType": "GET",
+      "requestUrl": "/refferal/getRefferalByAgentId/{agentId}",
+      "methodParmaTypes": [
+        "java.lang.Integer"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.RefferalController",
+      "methodName": "excelImport",
+      "requestType": "POST",
+      "requestUrl": "/refferal/excelImport",
+      "methodParmaTypes": [
+        "org.springframework.web.multipart.MultipartFile"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.RegisterController",
+      "methodName": "all",
+      "requestType": "null",
+      "requestUrl": "/register/getList",
+      "methodParmaTypes": []
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.ReportController",
+      "methodName": "exportRoiDetail",
+      "requestType": "POST",
+      "requestUrl": "/report/export/roi/detail",
+      "methodParmaTypes": [
+        "com.qf.openchannel.model.Roi"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.RoiController",
+      "methodName": "roiList",
+      "requestType": "POST",
+      "requestUrl": "/roi/roiList",
+      "methodParmaTypes": [
+        "com.qf.openchannel.model.Roi"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.TemplateController",
+      "methodName": "index",
+      "requestType": "GET",
+      "requestUrl": "/template/index",
+      "methodParmaTypes": [
+        "javax.servlet.http.HttpServletRequest"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.TimingTaskController",
+      "methodName": "cacheDataFromDB",
+      "requestType": "null",
+      "requestUrl": "/mc/timingTask/cacheData",
+      "methodParmaTypes": []
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.TimingTaskController",
+      "methodName": "mcTimingUpatePublishStatus",
+      "requestType": "null",
+      "requestUrl": "/mc/timingTask/mcTimingUpatePublishStatus",
+      "methodParmaTypes": []
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.TimingTaskController",
+      "methodName": "refferalSettlement",
+      "requestType": "null",
+      "requestUrl": "/mc/timingTask/refferalSettlement",
+      "methodParmaTypes": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.TimingTaskController",
+      "methodName": "getOneDayPvUvDataFromCms",
+      "requestType": "null",
+      "requestUrl": "/mc/timingTask/getOneDayPvUvDataFromCms",
+      "methodParmaTypes": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.TimingTaskController",
+      "methodName": "getAppointDaysPvUvDataFromCms",
+      "requestType": "null",
+      "requestUrl": "/mc/timingTask/getAppointDaysPvUvDataFromCms",
+      "methodParmaTypes": []
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.TimingTaskController",
+      "methodName": "updateRegisterPublishIds",
+      "requestType": "null",
+      "requestUrl": "/mc/timingTask/updateRegisterPublishIds",
+      "methodParmaTypes": []
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.UserController",
+      "methodName": "batchPermission",
+      "requestType": "POST",
+      "requestUrl": "/user/batchPermission",
+      "methodParmaTypes": [
+        "com.qf.openchannel.vo.UserRequest"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.UserController",
+      "methodName": "getUserByEmail",
+      "requestType": "GET",
+      "requestUrl": "/user/getUserByEmail",
+      "methodParmaTypes": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.UserController",
+      "methodName": "getUserList",
+      "requestType": "POST",
+      "requestUrl": "/user/getUserList",
+      "methodParmaTypes": [
+        "com.qf.openchannel.model.User"
+      ]
+    },
+    {
+      "controllerName": "class com.qf.openchannel.controller.UtmController",
+      "methodName": "seachUtm",
+      "requestType": "GET",
+      "requestUrl": "/mc/utm/seachUtm/{utmId}",
+      "methodParmaTypes": [
+        "java.lang.String"
+      ]
+    },
+    {
+      "controllerName": "class org.springframework.boot.autoconfigure.web.BasicErrorController",
+      "methodName": "error",
+      "requestType": "null",
+      "requestUrl": "/error",
+      "methodParmaTypes": [
+        "javax.servlet.http.HttpServletRequest"
+      ]
+    },
+    {
+      "controllerName": "class org.springframework.boot.autoconfigure.web.BasicErrorController",
+      "methodName": "errorHtml",
+      "requestType": "null",
+      "requestUrl": "/error",
+      "methodParmaTypes": [
+        "javax.servlet.http.HttpServletRequest",
+        "javax.servlet.http.HttpServletResponse"
+      ]
+    }
+  ]
+}

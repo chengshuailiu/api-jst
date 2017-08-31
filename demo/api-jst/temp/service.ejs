@@ -1,0 +1,15 @@
+import ApiService from '../utilities/ApiService';
+import Constant from './urlConstant';
+import Config from 'react-native-config'
+
+export default class <%= name %> extends ApiService {
+<% data.forEach(function(item){ %>
+
+//TYPE <%= item.requestType %>
+//URL <%= item.requestUrl %>
+<%= item.methodName %>(<%= item.methodParma2 %>){
+return this.<%= item.type %>(Config.API_URL + Constant.<%= item.url %><%= item.methodParma1 %>);
+}
+<% }) %>
+
+}
